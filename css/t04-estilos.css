@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+/*Seccion de encabezado*/
+.title{
+    font-family: 'Bungee', sans-serif;
+    background-color: rgb(83, 0, 25);
+    color: white;
+    padding: 1.1em;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 3em;
+}
+
+.title p{
+    color: rgb(168, 74, 74);
+    margin-top: -30px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Bungee', sans-serif;
+    font-size: xx-large;
+    background-color: rgb(117, 0, 35);
+    padding: 0.4em;
+    display: inline-block;
+    border-radius: 1.1em;
+    color: wheat;
+}
+/*seccion de la informacion*/
+/*esto hace que la imagen quede a lado del texto :D*/
+.info {
+  display: flex;
+  gap: 20px;
+  /*alinea la imagen y el texto al centro, para que queden parejitos*/
+  align-items: center;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+h3 {
+    text-align: left;
+    font-family: 'Bungee', sans-serif;
+    font-size: xx-large;
+    background-color: rgb(168, 3, 52);
+    padding: 0.4em;
+    display: inline-block;
+    border-radius: 1.1em;
+    color: rgb(255, 255, 255);
+}
+
+.subtitulo {
+    padding-top: 20px ;
+}
+
+img {
+    width: 200px;
+    border-radius: 15pt;
+    padding: 10px;
+    padding-right: 30px;
+}
+/*decora la imagen haciendo que al mover el mouse, se haga un poco mas grande*/
+img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+/*coopera para que la imagen quede a lado del texto*/
+
+.info p {
+    /*alinea el texto*/
+    text-align: justify;
+    font-size: 1.3em;
+    font-family: 'Jost';
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.info img {
+  display: block;          
+  margin: 0 auto;          
+}
+
+a {
+    color: #ff5c4d;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2em;
+}
+
+.footer {
+    background-color: rgb(90, 60, 60);
+    padding: 2pt;
+    color: white;
+    font-family: 'Jost';
+}
+
+.footer p {
+    text-align: center;
+}
+
+.subtitulo hr {
+    color: lightgray;
+}
+
+.subtitulo2 {
+    text-align: left;
+    font-family: 'Bungee', sans-serif;
+    font-size: xx-large;
+    padding: 0.4em;
+    border-radius: 1.1em;
+    color: rgb(205, 40, 18);
+    text-align: center;
+}
+
+.info2 p {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Jost';
+}
+
+.info3 {
+  font-family: 'Jost';
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.title a {
+    font-size: 1.5em;
+    color: rgb(255, 65, 65);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: inline-block;
+    padding: 20px;
+}
+
+.title a:hover{
+    transform: scale(1.2);
+}
